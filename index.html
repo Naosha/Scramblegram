@@ -1,0 +1,119 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/02c1331262.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <h1 class="main-title">Scramblegram</h1>
+
+    <div id="my-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-body"></div>
+      </div>
+    </div>
+
+    <section class="board">
+      <div class="word-container">
+        <div class="square jumbled"></div>
+        <div class="square jumbled"></div>
+        <div class="square jumbled"></div>
+        <div class="square jumbled"></div>
+        <div class="square jumbled"></div>
+        <div class="square jumbled"></div>
+        <div class="square jumbled"></div>
+        <div class="square jumbled"></div>
+        <div class="square jumbled"></div>
+      </div>
+      <div class="word-container guess-1">
+        <div class="square g1"></div>
+        <div class="square g1"></div>
+        <div class="square g1"></div>
+        <div class="square g1"></div>
+        <div class="square g1"></div>
+        <div class="square g1"></div>
+        <div class="square g1"></div>
+        <div class="square g1"></div>
+        <div class="square g1"></div>
+      </div>
+      <div class="word-container guess-2">
+        <div class="square g2"></div>
+        <div class="square g2"></div>
+        <div class="square g2"></div>
+        <div class="square g2"></div>
+        <div class="square g2"></div>
+        <div class="square g2"></div>
+        <div class="square g2"></div>
+        <div class="square g2"></div>
+        <div class="square g2"></div>
+      </div>
+      <div class="word-container guess-3">
+        <div class="square g3"></div>
+        <div class="square g3"></div>
+        <div class="square g3"></div>
+        <div class="square g3"></div>
+        <div class="square g3"></div>
+        <div class="square g3"></div>
+        <div class="square g3"></div>
+        <div class="square g3"></div>
+        <div class="square g3"></div>
+      </div>
+    </section>
+
+    <div class="google">
+      <a class="google-link hide">What is this word?</a>
+    </div>
+
+    <section class="keyboard">
+      <div class="word-container keyboard-line-1">
+        <div class="keyboard-square Q">Q</div>
+        <div class="keyboard-square W">W</div>
+        <div class="keyboard-square E">E</div>
+        <div class="keyboard-square R">R</div>
+        <div class="keyboard-square T">T</div>
+        <div class="keyboard-square Y">Y</div>
+        <div class="keyboard-square U">U</div>
+        <div class="keyboard-square I">I</div>
+        <div class="keyboard-square O">O</div>
+        <div class="keyboard-square P">P</div>
+      </div>
+      <div class="word-container keyboard-line-2">
+        <div class="keyboard-square A">A</div>
+        <div class="keyboard-square S">S</div>
+        <div class="keyboard-square D">D</div>
+        <div class="keyboard-square F">F</div>
+        <div class="keyboard-square G">G</div>
+        <div class="keyboard-square H">H</div>
+        <div class="keyboard-square J">J</div>
+        <div class="keyboard-square K">K</div>
+        <div class="keyboard-square L">L</div>
+      </div>
+      <div class="word-container keyboard-line-3">
+        <div class="keyboard-square backspace">
+          <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        <div class="keyboard-square Z">Z</div>
+        <div class="keyboard-square X">X</div>
+        <div class="keyboard-square C">C</div>
+        <div class="keyboard-square V">V</div>
+        <div class="keyboard-square B">B</div>
+        <div class="keyboard-square N">N</div>
+        <div class="keyboard-square M">M</div>
+        <div class="keyboard-square enter">enter</div>
+      </div>
+    </section>
+  </body>
+</html>
